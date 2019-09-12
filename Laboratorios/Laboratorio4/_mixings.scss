@@ -1,0 +1,13 @@
+@mixin center-div {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+
+@mixin std-space ($value) {
+    margin: $value;
+    padding: $value;
+}

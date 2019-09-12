@@ -1,0 +1,41 @@
+$box-sizingstd: border-box;
+$justify-standard: center;
+$display-standard: flex;
+$flex-dirstd: column;
+$flex-std: 1;
+$height-std: 10vh ;
+$padding-std: 1em ;
+$min-heightstd: 100vh;
+$margin-std: 0;
+$background-imgstd: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-048.jpg");
+$align-selfstd: center;
+
+
+
+
+*{
+    box-sizing: $box-sizingstd;
+}
+
+#main {
+    display: $display-standard;
+    flex: $flex-std;
+  }
+
+body{
+    display: $display-standard;
+    min-height: $min-heightstd;
+    flex-direction: $flex-dirstd;
+    margin: $margin-std;
+    background-image: $background-imgstd;
+
+    header, footer{
+        height: $height-std;
+        padding: $padding-std;
+    }
+
+    header{
+        flex-direction: $flex-dirstd;
+    }
+
+}
