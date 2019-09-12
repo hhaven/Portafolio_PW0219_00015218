@@ -9,7 +9,17 @@ $min-heightstd: 100vh;
 $margin-std: 0;
 $background-imgstd: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-048.jpg");
 $align-selfstd: center;
+$font-std: 50px;
+$text-sizeadjuststd: 100px;
 
+
+@mixin img-std($value: 100px){
+
+    width:$value;
+    height: $value;
+    border-radius: 100%;
+
+}
 
 
 
@@ -39,20 +49,18 @@ body{
     }
 
     article{
-        align-self:center;
-        justify-content: center;
-        text-size-adjust: 100px;
-        font-size: 50px;
+        align-self: $align-selfstd;
+        justify-content:$justify-standard;
+        text-size-adjust: $text-sizeadjuststd;
+        font-size: $font-std;
     }
 
 div{
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: $flex-dirstd;
+    justify-content: $justify-standard;
 }
 img{
-    width:100px;
-    height: 100px;
-    border-radius: 100%;
+    @include img-std();
 }
 hr{
     flex-direction: row;
