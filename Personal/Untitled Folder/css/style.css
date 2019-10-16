@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    background-color: #35013f;/*se setea el color de fondo*/
+    color: #99ddcc;/*se setea el color de la fuente*/
+    font-family: 'Roboto', sans-serif;/*se especifica la typografia y que si no que cargue sans-serif por defecto*/
+    text-align: center;/*se alinia el texto al centro*/
+    font-weight: 400;/*se le da grosor a la fuente*/
+    margin-left: 10%;
+    margin-right: 10%;
+}
+table{
+    width: 100%;
+}
+h2
+{
+    color: #5e0570;
+}
+.op
+{
+    color: #5e0570; 
+}
+body section 
+{
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%; 
+    padding: 2% 0%;
+    background-color: whitesmoke;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+body section .tarjeta
+{
+   background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+textarea
+{
+    resize: none;
+    font-size: 1em;
+    width: 100%;
+}
+.out
+{
+    margin-bottom: 5%;
+}
+
+
+
+.form-control{
+    border-radius: 10px;/*se le redondean las esquinas*/
+    border: 1px solid #5e0570;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em; 
+    color:#6d0a81;
+    width: 650px;
+
+}
+
+button
+{
+    background-color: #5e0570; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.enviar {
+    background-color: whitesmoke; 
+    color: #5e0570; 
+    border: 2px solid #5e0570;
+}
+
+.enviar:hover {
+    background-color: #5e0570;
+    color: white;
+}
+.in:focus{
+        box-shadow: 0 0 0 0.1em #ba68c8
+}
+
+table{
+    background-color: #6d0a81;/*se setea el color de fondo*/
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+th{
+    background-color: #ac0dcc;/*se setea el color de fondo*/
+	border-bottom: solid 5px #ac0dcc;
+    font-size: 1.5em;
+}
+
+tr:nth-child(even){
+	background-color: #5e0570;
+}
+
+tr:hover td{
+	background-color: #491853;
+	color: white;
+}
+

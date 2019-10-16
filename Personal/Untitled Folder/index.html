@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <header><h1>Agregar actividad</h1></header>
+    <section class="tarjeta">
+        <form action="">
+            <h2 class="out">Fecha</h2>
+            <input class="in" name="Dia" type="date" id="fecha">
+
+            <h2 class="out">Actividad</h2>
+            <input class="form-control" type="text" name="carnet" rows = "4" id="activity_field">
+            
+            <h2 class="out">Accidente</h2>
+            <div class="op">
+                <input type="radio" name="gender" value="si" id="accidente_si">Si
+                <input type="radio" name="gender" value="no" id="accidente_no">No
+            </div>
+
+            <br>
+            <button type="button" class="btn btn-danger" id="submit_btn" >enviar</button>
+        </form>
+    </section>
+    <table>
+        <tr>
+            <th>Dia</th>
+            <th>Actividad</th>
+            <th>Accidente</th>
+        </tr>
+        <tbody id="table_body">
+
+        </tbody>
+    </table>
+        
+</body>
+<script src="js/main.js"></script>
+</html>
