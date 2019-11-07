@@ -1,0 +1,5 @@
+express --no-view --git
+npm install mongoose --save
+mongodb://[HOST]:[PORT]/[DBNAME]
+
+https://github.com/DouglasHdezT/RegisterCRUD
